@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace FormeConsole
 {
-    interface IFileSerializable
+    public interface IFileSerializable
     {
-        void SaveToFile(string messaggio);
-        void LoadFromFile(string messaggio);
+        public void SaveToFile(string nomefile);
+        public void LoadFromFile(string nomefile);
     }
 }

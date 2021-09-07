@@ -1,0 +1,3 @@
+triangolo1
+3
+6
